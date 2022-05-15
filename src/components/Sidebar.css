@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  span {
+    @apply ml-4;
+  }
+}
+
+@layer components {
+  .navbar {
+    @apply bg-secondary h-20 flex justify-start items-center;
+  }
+
+  .menu-bars {
+    @apply ml-4 font-normal bg-none;
+  }
+
+  .nav-menu {
+    @apply bg-secondary w-64 h-screen flex content-center fixed top-0
+    neg-left-full 
+    duration-700;
+  }
+
+  .nav-menu.active {
+    @apply left-0 duration-300;
+  }
+
+  .nav-text {
+    @apply flex font-semibold text-slate-700 content-start items-center py-2 list-none h-14 w-11/12 px-4;
+  }
+
+  .nav-text:hover {
+    @apply text-primary fill-primary;
+  }
+
+  .navbar-toggle {
+    @apply bg-secondary w-full h-20 flex content-start items-center;
+  }
+}
+
+@layer utilities {
+  .neg-left-full {
+    left: -100%;
+  }
+}
