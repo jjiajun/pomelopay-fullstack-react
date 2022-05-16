@@ -19,15 +19,15 @@ function Sidebar() {
       <nav className='nav-menu active'>
         <ul className="w-full" onClick={showSidebar}>
           <li className="navbar-toggle">
-            <div className="menu-bars">
-              <FaIcons.FaUserCircle size="30"/>
+            <div className="menu-bars ">
+              <FaIcons.FaUserCircle size="40"/>
             </div>
           </li>
           {SidebarData.map((item, index) => {
             return (
-              <li key={index} className="nav-text cursor-default">
+              <li key={index} className="nav-li-div cursor-default">
                 {item.icon}
-                <span>{item.title}</span>
+                <span className="nav-text">{item.title}</span>
               </li>
             )
           })}

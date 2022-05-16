@@ -19,6 +19,6 @@
   }
 
   .table {
-    @apply ml-64 w-[calc(100%_-_16rem)];
+    @apply ml-48 md:ml-64 w-[calc(100%_-_12rem)] md:w-[calc(100%_-_16rem)] duration-300;
   }
 }

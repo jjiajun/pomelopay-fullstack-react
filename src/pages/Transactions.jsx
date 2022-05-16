@@ -82,7 +82,7 @@ export default function Transactions() {
                     {column.render('Header')}
                    </strong>
                   <span>
-                    {column.isSorted ? (column.isSortedDesc ? "▼" : "▲") : " "}
+                    {column.isSorted ? (column.isSortedDesc ? "▼" : "▲") : "▽"}
                   </span>
                 </div>
              </th>

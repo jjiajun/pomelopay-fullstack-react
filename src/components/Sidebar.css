@@ -10,15 +10,15 @@
 
 @layer components {
   .navbar {
-    @apply bg-secondary h-20 flex justify-start items-center;
+    @apply bg-secondary h-24 flex justify-start items-center;
   }
 
   .menu-bars {
-    @apply ml-4 font-normal bg-none;
+    @apply ml-6 md:ml-10 font-normal bg-none duration-300 flex-row;
   }
 
   .nav-menu {
-    @apply bg-secondary w-64 h-screen flex content-center fixed top-0
+    @apply bg-secondary w-48 md:w-64 h-screen flex content-center fixed top-0
     neg-left-full 
     duration-700;
   }
@@ -27,8 +27,8 @@
     @apply left-0 duration-300;
   }
 
-  .nav-text {
-    @apply flex font-semibold text-slate-700 content-start items-center py-2 list-none h-14 w-11/12 px-4;
+  .nav-li-div {
+    @apply flex font-semibold text-slate-700 content-start items-center pb-2 list-none h-14 w-11/12 pl-6 md:pl-10 duration-300;
   }
 
   .nav-text:hover {
@@ -36,7 +36,7 @@
   }
 
   .navbar-toggle {
-    @apply bg-secondary w-full h-20 flex content-start items-center;
+    @apply bg-secondary w-full h-24 flex content-start items-center;
   }
 }
 
