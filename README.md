@@ -17,8 +17,8 @@ A simple React view layer that fetches transaction data from a mock endpoint (JS
   <img src="https://user-images.githubusercontent.com/90031266/168696127-f41ae56a-5dab-4874-a2d9-7414bf2540ea.gif" />
 </div>
 
-3. The page is optimized slightly to be responsive to different screen widths 
-4. 
+3. The page is optimized to be responsive to different screen widths 
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/90031266/168696130-8afeedb6-8e27-4473-aff5-0054c066afd8.gif" />
 </div>
